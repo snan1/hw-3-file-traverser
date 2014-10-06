@@ -20,5 +20,3 @@ def process_data(pickle_file,shelve_file):
         shelve_file[key]=(value)
     h.close
     shelve_file.close()
-    
-    return dict_words
